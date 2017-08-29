@@ -22,12 +22,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="configserver" />
+        <module name="feign" />
         <module name="register" />
+        <module name="ribbon" />
+        <module name="route" />
+        <module name="service-springmvc-example" />
+        <module name="springmvc-example" />
         <module name="tyrant" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="configserver" target="1.8" />
+      <module name="feign" target="1.8" />
       <module name="register" target="1.8" />
+      <module name="ribbon" target="1.8" />
+      <module name="route" target="1.8" />
+      <module name="service-springmvc-example" target="1.8" />
+      <module name="springmvc-example" target="1.8" />
       <module name="tyrant" target="1.5" />
     </bytecodeTargetLevel>
   </component>

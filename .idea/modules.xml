@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/configserver/configserver.iml" filepath="$PROJECT_DIR$/configserver/configserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign/feign.iml" filepath="$PROJECT_DIR$/feign/feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/register/register.iml" filepath="$PROJECT_DIR$/register/register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon/ribbon.iml" filepath="$PROJECT_DIR$/ribbon/ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/route/route.iml" filepath="$PROJECT_DIR$/route/route.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-springmvc-example/service-springmvc-example.iml" filepath="$PROJECT_DIR$/service-springmvc-example/service-springmvc-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/tyrant.iml" filepath="$PROJECT_DIR$/tyrant.iml" />
     </modules>
   </component>

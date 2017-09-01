@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="configclient" />
         <module name="configserver" />
+        <module name="eurekaconfig" />
         <module name="feign" />
         <module name="register" />
         <module name="ribbon" />
@@ -36,6 +37,7 @@
     <bytecodeTargetLevel>
       <module name="configclient" target="1.8" />
       <module name="configserver" target="1.8" />
+      <module name="eurekaconfig" target="1.8" />
       <module name="feign" target="1.8" />
       <module name="register" target="1.8" />
       <module name="ribbon" target="1.8" />
